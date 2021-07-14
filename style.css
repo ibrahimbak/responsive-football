@@ -1,9 +1,11 @@
+/* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* Hero start */
 .hero-section{
     background: #2D25A0;
     height: 677px;
@@ -36,7 +38,6 @@ body{
 }
 .grid{
     margin-top: 70px;
-    /* margin-left: 100px; */
     display: grid;
     grid-template-columns: repeat(3, 0.1fr);
     justify-content: center;
@@ -56,6 +57,7 @@ body{
 .text p{
     color: #6C6C6C;
 }
+/* Highlights section */
 .highlights{
     margin-top: 165px;
 
@@ -76,6 +78,9 @@ body{
 .highlights-text p{
     color: #6C6C6C;
 }
+/* -------------
+    footer
+-------------- */
 .footer-content img{
     width: 262px;
     display: block;
@@ -86,7 +91,6 @@ body{
 .socials{
     list-style: none;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 .socials li{
