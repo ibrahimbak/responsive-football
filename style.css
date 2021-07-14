@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* Hero start */
+/* Hero style */
 .hero-section{
     background: #2D25A0;
     height: 677px;
@@ -78,9 +78,30 @@ body{
 .highlights-text p{
     color: #6C6C6C;
 }
-/* -------------
-    footer
--------------- */
+/* News section */
+.news{
+    margin-top: 50px;
+
+}
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 66px;
+}
+.news-grid img{
+    width: 567px;
+    margin-right: 156px;
+}
+.news-text{
+    width: 309px;
+    margin-left: 182px;
+}
+
+
+
+/* -----------------
+    footer style
+-------------------- */
 .footer-content img{
     width: 262px;
     display: block;
